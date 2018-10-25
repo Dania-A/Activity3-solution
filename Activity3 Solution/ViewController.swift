@@ -10,9 +10,30 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var startButton: UIButton!
+    @IBOutlet weak var stopButton: UIButton!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+       startButton.isEnabled = true
+       stopButton.isEnabled = false
+    }
+    
+    @IBAction func startClicked(_ sender: Any) {
+        print ("Logging started")
+       stopButton.isEnabled = true
+       startButton.isEnabled = false
+    }
+    
+    
+    @IBAction func stopClicked(_ sender: Any) {
+        print ("Logging stopped")
+       stopButton.isEnabled = false
+       startButton.isEnabled = true
     }
 
 
