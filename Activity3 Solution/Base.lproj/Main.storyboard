@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GBk-yp-sRZ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GBk-yp-sRZ">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -101,8 +101,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bce-nF-g7G" userLabel="Login View">
-                                <rect key="frame" x="38" y="124" width="299" height="419"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bce-nF-g7G" userLabel="Login View">
+                                <rect key="frame" x="38" y="168.5" width="299" height="330"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Parsing Demo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zad-J6-sDH" userLabel="Parse Demo Label">
                                         <rect key="frame" x="0.0" y="19" width="299" height="27"/>
@@ -147,7 +147,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.65000000000000002" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="298" id="071-NU-J5g"/>
                                     <constraint firstItem="Zad-J6-sDH" firstAttribute="leading" secondItem="bce-nF-g7G" secondAttribute="leading" id="0dL-N5-Fcr"/>
@@ -166,7 +166,7 @@
                                     <constraint firstItem="Zad-J6-sDH" firstAttribute="top" secondItem="bce-nF-g7G" secondAttribute="top" constant="19" id="lOq-hc-0Ki"/>
                                     <constraint firstItem="xrs-8D-OLC" firstAttribute="centerX" secondItem="bce-nF-g7G" secondAttribute="centerX" id="mVh-YO-Hl8"/>
                                     <constraint firstItem="Hpx-03-qOX" firstAttribute="leading" secondItem="apH-JW-YCa" secondAttribute="leading" constant="-11.5" id="mhE-Ge-s8j"/>
-                                    <constraint firstAttribute="height" constant="419" id="qh7-FO-3bf"/>
+                                    <constraint firstAttribute="height" constant="330" id="qh7-FO-3bf"/>
                                     <constraint firstItem="xrs-8D-OLC" firstAttribute="top" secondItem="H2i-bs-kiQ" secondAttribute="bottom" constant="30" id="yBu-5r-P6S"/>
                                 </constraints>
                             </view>
